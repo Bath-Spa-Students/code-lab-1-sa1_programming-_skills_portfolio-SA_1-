@@ -1,0 +1,10 @@
+"""store the names of a few of your friends in a list called names.
+print each person's name by accessing each element in the list , one at a time
+"""
+#store the names of friends in a list 
+names =  ["alice", "bob" , "charlie"]
+
+#print each person's name by accessing each element in the list 
+print (names[0])
+print (names[1])
+print(names [2])
