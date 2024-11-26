@@ -1,0 +1,28 @@
+"""write a loop that prompts the user to enter 
+a series of pizza toppings until they enter a 'quit' value. 
+As they enter each topping, 
+print a message saying you'll add that toping to the pizza
+"""
+
+#initialize an empty list to store the toppings 
+toppings = []
+
+#start an infinite loop so that the user can enter toppings 
+while True :
+
+# enter a pizza topping Or quit to end
+  topping = input("Enter a pizza topping (or 'quit' to finish): ")
+#check if the user entred 'qut' (case insensitive)
+  if topping.lower() == 'quit':
+    
+    topping = input("Enter a pizza topping (or 'quit' to finish): ")
+#add the topping to the list 
+toppings.append (topping)
+
+#print a message confirming the addition of the topping 
+pribt (f"ill add {topping} to your pizza!")
+
+#after the loop , print the final list of toppings
+print("inyout pizza will have folloing toppings:")
+for topping in toppings:
+    print(f"-{toppings}") #print each topping in the list 
