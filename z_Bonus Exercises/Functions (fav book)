@@ -1,0 +1,14 @@
+"""write a function called favorite_book() that accepts one parameter, title.
+The function should print a message,
+such as one of my favorite books is Alice in the wonderland. call the fuction,
+making sure to include a book title as an argument is the funciton call.
+"""
+
+def favorite_book (title):
+    "prints a message about a avorite book"
+    
+    #print a message that includes the book title passed to the function
+    print(f"one of my favourite book is {title}")
+    
+#call the function with a specific book title as a argument
+favorite_book("Alice in Wonderland")

@@ -1,0 +1,16 @@
+"""use a dictionary to store information about a person your know.
+store ther first name , last name, age and the city in whic they live.
+"""
+
+person_info = {
+    "first_name": "Muhammad Munim" ,
+    "last_name" : "Yasir Saeed" , 
+    "age" : 18 ,
+    "city" : "rawalpindi"
+}
+
+#to access the information , you can do the following:
+print("first name:" , person_info["Muhammad Munim"])
+print("last name:" , person_info["Yasir Saeed"])
+print("age:" ,person_info["18"] )
+print("city:" , person_info["rawalpindi"] )
