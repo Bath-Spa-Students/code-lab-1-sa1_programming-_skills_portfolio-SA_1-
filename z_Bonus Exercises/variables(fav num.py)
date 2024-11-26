@@ -1,0 +1,18 @@
+"""use a variable to represent your favourite number. 
+then using that variable, create a message that reveals your favourite number. 
+print that message 
+"""
+
+#assign your favourite number to a variable 
+favourite_number = 7
+
+#create a message that reveals your favourite number 
+message = f"my favourite number is {favourite_number}."
+
+
+#print the message 
+print(message)
+
+
+
+
