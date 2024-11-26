@@ -30,7 +30,7 @@ def password_entry_system():
     
     
     #use a while loop to repeadtely ask for the password 
-    while attempts < max_attempts:
+    while attempts < max_attempts: # type: ignore
         #prompt the user for the password 
         user_input = input("enter password: ")
         
@@ -40,8 +40,8 @@ def password_entry_system():
         break #exit the loop if the password is correct 
     else:
         attempts += 1 # increment the attempts counter 
-        remaining_attempts = max_attempts - attempts
-        if remaing_attempts > 0:
+        remaining_attempts = max_attempts - attempts # type: ignore
+        if remaing_attempts > 0: # type: ignore
             print(f"incorrect password. you have reached the macimum number of attempts.")
         else: 
             print("incorrect password. you have reached the maximum number of attempts.")
